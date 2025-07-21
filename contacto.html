@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Colors1980 Cali</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <h1>Colors1980</h1>
+                </div>
+                <div class="nav-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Inicio</a></li>
+                    <li class="nav-item"><a href="camisetas.html" class="nav-link">Camisetas</a></li>
+                    <li class="nav-item"><a href="promocionales.html" class="nav-link">Promocionales</a></li>
+                    <li class="nav-item"><a href="regalos.html" class="nav-link">Regalos</a></li>
+                    <li class="nav-item"><a href="emprendedor.html" class="nav-link">Emprendedor</a></li>
+                    <li class="nav-item"><a href="dotacion.html" class="nav-link">Dotación</a></li>
+                    <li class="nav-item"><a href="contacto.html" class="nav-link">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="contact-page">
+        <!-- Hero Section para contacto -->
+        <section class="contact-hero">
+            <div class="container">
+                <div class="contact-hero-content">
+                    <h1>Contacto</h1>
+                    <h2>¿Listo para personalizar tus productos?</h2>
+                    <p>Estamos en el centro de Cali y atendemos toda la ciudad. Contáctanos por WhatsApp o déjanos tus datos para que te llamemos.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección principal de contacto -->
+        <section class="contact-main">
+            <div class="container">
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <span>📱</span>
+                            </div>
+                            <div class="contact-details">
+                                <h3>WhatsApp Directo</h3>
+                                <p class="contact-number">+57 310 8252353</p>
+                                <p class="contact-instruction">Pregunta por <strong>Johana</strong></p>
+                                <a href="https://wa.me/573108252353?text=Hola%20Johana,%20me%20interesa%20conocer%20sus%20servicios%20de%20personalización" 
+                                   class="whatsapp-btn" target="_blank">
+                                    <span class="whatsapp-icon">💬</span>
+                                    Escribir por WhatsApp
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-features">
+                            <div class="feature-contact">
+                                <div class="feature-icon-contact">🕒</div>
+                                <div>
+                                    <h4>Horario de Atención</h4>
+                                    <p>Lunes a Sábado<br>8:00 AM - 6:00 PM</p>
+                                </div>
+                            </div>
+                            <div class="feature-contact">
+                                <div class="feature-icon-contact">📍</div>
+                                <div>
+                                    <h4>Ubicación</h4>
+                                    <p>Centro de Cali<br>Atendemos toda la ciudad</p>
+                                </div>
+                            </div>
+                            <div class="feature-contact">
+                                <div class="feature-icon-contact">⚡</div>
+                                <div>
+                                    <h4>Respuesta Rápida</h4>
+                                    <p>Contestamos en minutos<br>Cotizaciones inmediatas</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form-container">
+                        <div class="contact-form-card">
+                            <h3>¿Prefieres que te contactemos?</h3>
+                            <p>Déjanos tus datos y te llamaremos en el menor tiempo posible</p>
+                            
+                            <form class="contact-form" action="#" method="POST">
+                                <div class="form-group">
+                                    <input type="text" id="nombre" name="nombre" required placeholder=" ">
+                                    <label for="nombre">Nombre completo</label>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <input type="tel" id="telefono" name="telefono" required placeholder=" ">
+                                    <label for="telefono">Número de teléfono</label>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <select id="servicio" name="servicio" required>
+                                        <option value="">Selecciona un servicio</option>
+                                        <option value="camisetas">Camisetas Personalizadas</option>
+                                        <option value="promocionales">Artículos Promocionales</option>
+                                        <option value="regalos">Regalos Personalizados</option>
+                                        <option value="emprendedor">Paquetes Emprendedor</option>
+                                        <option value="dotacion">Dotación Empresarial</option>
+                                        <option value="otro">Otro servicio</option>
+                                    </select>
+                                    <label for="servicio">Servicio de interés</label>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <textarea id="mensaje" name="mensaje" rows="4" placeholder=" "></textarea>
+                                    <label for="mensaje">Cuéntanos sobre tu proyecto (opcional)</label>
+                                </div>
+                                
+                                <button type="submit" class="form-submit-btn">
+                                    Solicitar Contacto
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de información adicional -->
+        <section class="contact-info-section">
+            <div class="container">
+                <div class="info-grid">
+                    <div class="info-card">
+                        <div class="info-icon">🏪</div>
+                        <h3>Nuestra Tienda</h3>
+                        <p>Ubicados estratégicamente en el centro de Cali para atender toda la ciudad con rapidez y eficiencia.</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">🚚</div>
+                        <h3>Entregas</h3>
+                        <p>Servicio de entrega en todos los barrios de Cali. Cotizamos el envío según tu ubicación.</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">💼</div>
+                        <h3>Empresas</h3>
+                        <p>Atención especializada para empresas con facturación y crédito disponible para clientes corporativos.</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">🎨</div>
+                        <h3>Diseño</h3>
+                        <p>Servicio de diseño gratuito incluido. Nuestro equipo te ayuda a crear el diseño perfecto.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Mapa de Google -->
+        <section class="map-section">
+            <div class="container">
+                <div class="map-header">
+                    <h2>Nuestra Ubicación en Cali</h2>
+                    <p>Visítanos en el centro de Cali o contacta para entregas a domicilio</p>
+                </div>
+                <div class="map-container-modern">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d254708.39516774934!2d-76.69429542309741!3d3.3950860251181896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a6f0cc4bb3f1%3A0x1f0fb5456db7c2ec!2sCali%2C%20Valle%20del%20Cauca%2C%20Colombia!5e0!3m2!1sen!2s!4v1703123456789!5m2!1sen!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Colors1980</h3>
+                    <p>Tu socio en impresión personalizada en Cali</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <p>+57 310 8252353</p>
+                    <p>Centro de Cali, Colombia</p>
+                    <p>Atendemos toda la ciudad</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Servicios</h4>
+                    <p>Estampados • Bordados • Sublimación</p>
+                    <p>Artículos promocionales • Uniformes</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Colors1980. Todos los derechos reservados. Servicio de impresión personalizada en Cali.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+<script>
+    // Función para enviar formulario a WhatsApp
+document.addEventListener('DOMContentLoaded', function() {
+    const contactForm = document.querySelector('.contact-form');
+    
+    if (contactForm) {
+        contactForm.addEventListener('submit', function(e) {
+            e.preventDefault(); // Prevenir envío normal del formulario
+            
+            // Obtener los valores del formulario
+            const nombre = document.getElementById('nombre').value.trim();
+            const telefono = document.getElementById('telefono').value.trim();
+            const servicio = document.getElementById('servicio').value;
+            const mensaje = document.getElementById('mensaje').value.trim();
+            
+            // Validar campos requeridos
+            if (!nombre || !telefono || !servicio) {
+                alert('Por favor completa todos los campos obligatorios');
+                return;
+            }
+            
+            // Crear el mensaje formatado para WhatsApp
+            let whatsappMessage = `🎨 *NUEVA SOLICITUD DE CONTACTO - Colors1980*\n\n`;
+            whatsappMessage += `👤 *Nombre:* ${nombre}\n`;
+            whatsappMessage += `📱 *Teléfono:* ${telefono}\n`;
+            whatsappMessage += `🛍️ *Servicio de interés:* ${getServiceName(servicio)}\n`;
+            
+            if (mensaje) {
+                whatsappMessage += `💬 *Mensaje:* ${mensaje}\n`;
+            }
+            
+            whatsappMessage += `\n⏰ *Fecha:* ${new Date().toLocaleDateString('es-CO')}\n`;
+            whatsappMessage += `🕐 *Hora:* ${new Date().toLocaleTimeString('es-CO', {hour: '2-digit', minute: '2-digit'})}\n\n`;
+            whatsappMessage += `Por favor contactarme para más información. ¡Gracias!`;
+            
+            // Número de WhatsApp (sin espacios ni símbolos)
+            const whatsappNumber = '573108252353';
+            
+            // Codificar el mensaje para URL
+            const encodedMessage = encodeURIComponent(whatsappMessage);
+            
+            // Crear la URL de WhatsApp
+            const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
+            
+            // Abrir WhatsApp en una nueva pestaña
+            window.open(whatsappURL, '_blank');
+            
+            // Mostrar mensaje de confirmación
+            showSuccessMessage();
+            
+            // Limpiar el formulario
+            contactForm.reset();
+        });
+    }
+});
+
+// Función para convertir el valor del select en texto legible
+function getServiceName(serviceValue) {
+    const services = {
+        'camisetas': '👕 Camisetas Personalizadas',
+        'promocionales': '🎁 Artículos Promocionales',
+        'regalos': '🎀 Regalos Personalizados',
+        'emprendedor': '📈 Paquetes Emprendedor',
+        'dotacion': '👔 Dotación Empresarial',
+        'otro': '❓ Otro servicio'
+    };
+    
+    return services[serviceValue] || serviceValue;
+}
+
+// Función para mostrar mensaje de éxito
+function showSuccessMessage() {
+    // Crear elemento de notificación
+    const notification = document.createElement('div');
+    notification.className = 'success-notification';
+    notification.innerHTML = `
+        <div class="notification-content">
+            <span class="notification-icon">✅</span>
+            <span class="notification-text">¡Perfecto! Te estamos redirigiendo a WhatsApp...</span>
+        </div>
+    `;
+    
+    // Agregar estilos inline para la notificación
+    notification.style.cssText = `
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        background: linear-gradient(135deg, #25D366, #128C7E);
+        color: white;
+        padding: 15px 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 15px rgba(37, 211, 102, 0.3);
+        z-index: 10000;
+        animation: slideInRight 0.5s ease;
+        font-family: 'Roboto', Arial, sans-serif;
+        max-width: 300px;
+    `;
+    
+    // Agregar animación CSS
+    if (!document.getElementById('notification-styles')) {
+        const style = document.createElement('style');
+        style.id = 'notification-styles';
+        style.textContent = `
+            @keyframes slideInRight {
+                from {
+                    transform: translateX(100%);
+                    opacity: 0;
+                }
+                to {
+                    transform: translateX(0);
+                    opacity: 1;
+                }
+            }
+            @keyframes slideOutRight {
+                from {
+                    transform: translateX(0);
+                    opacity: 1;
+                }
+                to {
+                    transform: translateX(100%);
+                    opacity: 0;
+                }
+            }
+            .notification-content {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+            }
+            .notification-icon {
+                font-size: 1.2em;
+            }
+            .notification-text {
+                font-weight: 500;
+            }
+        `;
+        document.head.appendChild(style);
+    }
+    
+    // Agregar al body
+    document.body.appendChild(notification);
+    
+    // Remover después de 4 segundos
+    setTimeout(() => {
+        notification.style.animation = 'slideOutRight 0.5s ease';
+        setTimeout(() => {
+            if (notification.parentNode) {
+                notification.parentNode.removeChild(notification);
+            }
+        }, 500);
+    }, 4000);
+}
+
+// Función adicional para validación en tiempo real (opcional)
+document.addEventListener('DOMContentLoaded', function() {
+    const phoneInput = document.getElementById('telefono');
+    
+    if (phoneInput) {
+        phoneInput.addEventListener('input', function(e) {
+            // Permitir solo números, espacios, guiones y paréntesis
+            let value = e.target.value.replace(/[^\d\s\-\(\)\+]/g, '');
+            e.target.value = value;
+        });
+    }
+});
+
+// Función para mejorar la experiencia del usuario con los inputs
+document.addEventListener('DOMContentLoaded', function() {
+    const formInputs = document.querySelectorAll('.form-group input, .form-group textarea');
+    
+    formInputs.forEach(input => {
+        input.addEventListener('focus', function() {
+            this.parentElement.classList.add('focused');
+        });
+        
+        input.addEventListener('blur', function() {
+            if (!this.value) {
+                this.parentElement.classList.remove('focused');
+            }
+        });
+        
+        // Mantener el estado si ya tiene valor
+        if (input.value) {
+            input.parentElement.classList.add('focused');
+        }
+    });
+});
+</script>
+</html>
